@@ -1,0 +1,47 @@
+body, table{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td, th{
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+}
+input, select, option{
+    width: 100%;
+    padding: 15px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 50%;
+    background-color: rgb(30, 172, 180);
+    color: black;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(41, 41, 41);
+    font-size: larger; 
+    
+   
+}
+form div.form-action-buttons{
+    text-align: center;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(58, 70, 236);
+    margin-right: 5px;
+}
+label{
+    font-weight: bold;
+}

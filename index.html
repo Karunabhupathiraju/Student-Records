@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Karuna</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="lightpink">
+        <table>
+            <tr>
+                <td>
+                    <table class="list" id="userList">
+                        <thead>
+                            <h1 style="text-align: center; margin-top: -140px;color: rgb(19, 20, 19);">Karuna Bhupathiraju</h1><br><br><br><br><br>
+                            <tr>
+                                <th>ID</th>
+                                <th>Image</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th style="text-align: center;">Email</th>
+                                <th>DoB</th>
+                                <th>Gender</th>
+                                <th>Commands</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+                       
+                        <div>
+                            <label>ID</label>
+                            <input type="number" name="studentId" id="studentId">
+                        </div>
+                        <div>
+                            <label>First Name</label>
+                            <input type="text" name="firstName" id="firstName">
+                        </div>
+                        <div>
+                            <label>Last Name</label>
+                            <input type="text" name="lastName" id="lastName">
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label>Date of Birth</label>
+                            <input type="date" name="studentDoB" id="studentDoB">
+                        </div>
+                        <div>
+                            <label>Gender</label>
+                            <select name="studentGender" id="studentGender">
+                                <option value="Female">Female</option>
+                                <option value="Male">Male</option>                
+                            </select>
+                        </div>
+                        <div>
+                            <label>Picture</label>
+                            <input type="file" name="studentPicture" id="studentPicture">
+                        </div>
+                        <div class="form-action-buttons">
+                            <input type="submit" value="submit" style="font-size: larger; box-shadow: 2px 2px 2px rgb(41, 41, 41);">
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
